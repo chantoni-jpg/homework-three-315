@@ -1,0 +1,50 @@
+.contact {
+  background-color: rgb(147, 112, 219);
+  height: 800px;
+
+  label {
+    font-family: Stardew;
+    color: white;
+    font-size: 20px;
+  }
+
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Stardew;
+    font-size: 70px;
+  }
+
+  p {
+    font-family: Stardew;
+    font-size: 30px;
+    color: white;
+  }
+  form {
+    width: 550px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Stardew;
+  }
+
+  input[type="submit"] {
+    background-color: rgb(75, 0, 130);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-family: Stardew;
+  }
+}

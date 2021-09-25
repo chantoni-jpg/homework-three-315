@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Stardew;
+  src: url(../css/fonts/Stardew_Valley.ttf);
+}
+nav {
+  background-color: indigo;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: Stardew;
+}
+
+.home {
+  background-image: url(/images/614ba49a19c69.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+}
+.home h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 100px;
+  padding-top: 100px;
+  font-family: Stardew;
+  color: white;
+}
+.home p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 50px;
+  padding-top: 100px;
+  font-family: Stardew;
+  color: white;
+}
+.home .barn {
+  background-image: url(/images/pngaaa.com-2975505.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 400px;
+}
+
+.about {
+  background-color: mediumpurple;
+  height: 1000px;
+}
+.about h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 100px;
+  font-family: Stardew;
+  color: white;
+  padding-top: 50px;
+}
+.about h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 50px;
+  font-family: Stardew;
+  color: white;
+  padding-top: 50px;
+}
+.about p {
+  color: white;
+  font-size: 30px;
+  text-indent: 40px;
+  font-family: Stardew;
+  margin: 20px;
+  padding-top: 40px;
+}
+.about .img-one {
+  background-image: url(/images/58f36783a4fa116215a923eb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+}
+.about .img-two {
+  background-image: url(/images/58f366b6a4fa116215a923d3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  position: relative;
+  bottom: 495px;
+  left: 900px;
+}
+
+.products {
+  background-color: mediumpurple;
+  height: 800px;
+}
+.products h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  font-family: Stardew;
+  font-size: 50px;
+}
+.products .product-one {
+  background-image: url(/images/pngaaa.com-2975644.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px;
+}
+.products .product-one h2 {
+  padding-top: 400px;
+  color: white;
+  font-family: Stardew;
+  font-size: 40px;
+  padding-left: 50px;
+}
+.products .product-one p {
+  margin-top: 450px;
+  margin-right: 50px;
+  font-size: 40px;
+  color: white;
+  font-family: Stardew;
+}
+.products .product-two {
+  background-image: url(/images/pngaaa.com-2975586.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 750px;
+  position: relative;
+  left: 500px;
+  bottom: 500px;
+}
+.products .product-two h2 {
+  padding-top: 500px;
+  color: white;
+  font-family: Stardew;
+  font-size: 40px;
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.products .product-two p {
+  font-size: 40px;
+  color: white;
+  font-family: Stardew;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.reviews {
+  background-color: mediumpurple;
+  height: 800px;
+}
+.reviews h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  font-family: Stardew;
+  font-size: 70px;
+}
+.reviews .review-one p {
+  font-family: Stardew;
+  font-size: 20px;
+  color: white;
+}
+.reviews .review-one h3 {
+  color: white;
+  font-family: Stardew;
+  font-size: 40px;
+}
+.reviews .review-one .img {
+  background-image: url(/images/pngaaa.com-4217617.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90px;
+  width: 90px;
+}
+.reviews .review-two h3 {
+  color: white;
+  font-family: Stardew;
+  font-size: 40px;
+}
+.reviews .review-two p {
+  font-family: Stardew;
+  font-size: 20px;
+  color: white;
+}
+.reviews .review-two .img {
+  background-image: url(/images/pngaaa.com-2975526.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90px;
+  width: 90px;
+}
+.reviews .review-three p {
+  font-family: Stardew;
+  font-size: 20px;
+  color: white;
+}
+.reviews .review-three h3 {
+  color: white;
+  font-family: Stardew;
+  font-size: 40px;
+}
+.reviews .review-three .img {
+  background-image: url(/images/pngaaa.com-2975523.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90px;
+  width: 90px;
+}
+
+.contact {
+  background-color: mediumpurple;
+  height: 800px;
+}
+.contact label {
+  font-family: Stardew;
+  color: white;
+  font-size: 20px;
+}
+.contact h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  font-family: Stardew;
+  font-size: 70px;
+}
+.contact p {
+  font-family: Stardew;
+  font-size: 30px;
+  color: white;
+}
+.contact form {
+  width: 550px;
+  height: 450px;
+  margin: auto;
+  position: relative;
+}
+.contact input[type=text],
+.contact select,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: Stardew;
+}
+.contact input[type=submit] {
+  background-color: indigo;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: Stardew;
+}

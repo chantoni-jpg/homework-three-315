@@ -1,0 +1,75 @@
+.reviews {
+  background-color: rgb(147, 112, 219);
+  height: 800px;
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Stardew;
+    font-size: 70px;
+  }
+  .review-one {
+    p {
+      font-family: Stardew;
+      font-size: 20px;
+      color: white;
+    }
+
+    h3 {
+      color: white;
+      font-family: Stardew;
+      font-size: 40px;
+    }
+    .img {
+      background-image: url(/images/pngaaa.com-4217617.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 90px;
+      width: 90px;
+    }
+  }
+  .review-two {
+    h3 {
+      color: white;
+      font-family: Stardew;
+      font-size: 40px;
+    }
+
+    p {
+      font-family: Stardew;
+      font-size: 20px;
+      color: white;
+    }
+    .img {
+      background-image: url(/images/pngaaa.com-2975526.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 90px;
+      width: 90px;
+    }
+  }
+  .review-three {
+    p {
+      font-family: Stardew;
+      font-size: 20px;
+      color: white;
+    }
+
+    h3 {
+      color: white;
+      font-family: Stardew;
+      font-size: 40px;
+    }
+    .img {
+      background-image: url(/images/pngaaa.com-2975523.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 90px;
+      width: 90px;
+    }
+  }
+}

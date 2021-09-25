@@ -1,0 +1,52 @@
+.about {
+  background-color: rgb(147, 112, 219);
+  height: 1000px;
+
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 100px;
+    font-family: Stardew;
+    color: white;
+    padding-top: 50px;
+  }
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+    font-family: Stardew;
+    color: white;
+    padding-top: 50px;
+  }
+  p {
+    color: white;
+    font-size: 30px;
+    text-indent: 40px;
+    font-family: Stardew;
+    margin: 20px;
+    padding-top: 40px;
+  }
+
+  .img-one {
+    background-image: url(/images/58f36783a4fa116215a923eb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+  }
+  .img-two {
+    background-image: url(/images/58f366b6a4fa116215a923d3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    bottom: 495px;
+    left: 900px;
+  }
+}

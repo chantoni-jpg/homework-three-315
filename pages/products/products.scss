@@ -1,0 +1,68 @@
+.products {
+  background-color: rgb(147, 112, 219);
+  height: 800px;
+
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Stardew;
+    font-size: 50px;
+  }
+
+  .product-one {
+    background-image: url(/images/pngaaa.com-2975644.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    margin: 50px;
+    h2 {
+      padding-top: 400px;
+      color: white;
+      font-family: Stardew;
+      font-size: 40px;
+      padding-left: 50px;
+    }
+    p {
+      margin-top: 450px;
+      margin-right: 50px;
+      font-size: 40px;
+      color: white;
+      font-family: Stardew;
+    }
+  }
+  .product-two {
+    background-image: url(/images/pngaaa.com-2975586.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 750px;
+    position: relative;
+    left: 500px;
+    bottom: 500px;
+
+    h2 {
+      padding-top: 500px;
+      color: white;
+      font-family: Stardew;
+      font-size: 40px;
+      padding-left: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    p {
+      font-size: 40px;
+      color: white;
+      font-family: Stardew;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+}

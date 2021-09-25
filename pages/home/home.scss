@@ -1,0 +1,36 @@
+.home {
+  background-image: url(/images/614ba49a19c69.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 100px;
+    padding-top: 100px;
+    font-family: Stardew;
+    color: white;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+    padding-top: 100px;
+    font-family: Stardew;
+    color: white;
+  }
+
+  .barn {
+    background-image: url(/images/pngaaa.com-2975505.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    margin-left: 400px;
+  }
+}
